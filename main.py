@@ -1,7 +1,7 @@
 from flask import Flask, request, Response
 import time
 
-PATH_TO_TEST_IMAGES_DIR = 'venv'
+PATH_TO_TEST_IMAGES_DIR = './venv'
 app = Flask(__name__)
 
 @app.route('/')
